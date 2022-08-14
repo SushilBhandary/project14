@@ -9,7 +9,7 @@ The website focuses on implementing the basics of HTML and CSS to create this We
 - position: absolute
 - -webkit-text-stroke
 
-## [Live Preview](https://thunderous-shortbread-4781d1.netlify.app/)
+## [Live Preview](https://chimerical-piroshki-714e49.netlify.app/)
 
 ### SnapShot of the Webpage
 
