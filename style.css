@@ -10,6 +10,7 @@ body > img {
   height: 100vh;
   position: absolute;
   z-index: -1;
+  width: 40%;
 }
 
 nav {
@@ -26,6 +27,11 @@ nav {
   margin-left: 60px;
   list-style-type: none;
   font-weight: bolder;
+}
+
+.list-item:hover {
+  font-weight: 900;
+  font-size :large;
 }
 
 .line {
@@ -47,7 +53,7 @@ nav > img {
   padding: 5px;
   margin-bottom: 20px;
 }
-
+ 
 .social {
   display: flex;
   flex-direction: column;
@@ -75,6 +81,7 @@ nav > img {
   position: relative;
   bottom: 50px;
   left: 110px;
+  width: 300px;
 }
 
 .mid > h3 {
@@ -97,10 +104,14 @@ nav > img {
   right: 125px;
 }
 
+.mid > button:hover {
+  background-color: #413e3e;
+}
+
 .list2 {
   position: absolute;
-  top: 400px;
-  right: 650px;
+  bottom: 0px;
+  left: 45%;
   font-size: 15px;
 }
 
@@ -120,8 +131,8 @@ nav > img {
 
 .last {
   position: absolute;
-  top: 380px;
-  right: 120px;
+  bottom: 0px;
+  right: 0;
 }
 
 .last > h3 {
@@ -139,8 +150,24 @@ nav > img {
 
 .line2 {
   border-left: 1.5px solid #3d3d3d;
-  height: 215px;
-  position: relative;
-  top: 330px;
-  left: 560px;
+  height: 205px;
+  position: absolute;
+  bottom: 0px;
+  left: 45.3%;
+}
+
+@media screen and (max-width : 1100px) {
+  body > img {
+    display:none;
+  }
+  .list2 {
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+    font-size: 15px;
+  }
+  .line2 {
+    left: 10.5%;
+  }
+  
 }
